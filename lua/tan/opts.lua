@@ -17,3 +17,6 @@ vim.api.nvim_set_option('updatetime', 300)
 -- Treesitter folding 
 vim.wo.foldmethod = 'expr'
 vim.wo.foldexpr = 'nvim_treesitter#foldexpr()'
+
+-- Vim configs
+vim.o.number = true
