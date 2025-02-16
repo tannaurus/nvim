@@ -71,4 +71,7 @@ return require('packer').startup(function(use)
 	use('preservim/tagbar')
 
 	use('preservim/nerdtree')
+	use('Xuyuanp/nerdtree-git-plugin')
+	use('ryanoasis/vim-devicons')
+	use('tiagofumo/vim-nerdtree-syntax-highlight')
 end)
