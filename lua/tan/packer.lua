@@ -74,4 +74,9 @@ return require('packer').startup(function(use)
 	use('Xuyuanp/nerdtree-git-plugin')
 	use('ryanoasis/vim-devicons')
 	use('tiagofumo/vim-nerdtree-syntax-highlight')
+	use {
+		'nvim-lualine/lualine.nvim',
+		requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+	}
+	use('romainl/vim-cool')
 end)
