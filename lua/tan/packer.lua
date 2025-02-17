@@ -79,4 +79,7 @@ return require('packer').startup(function(use)
 		requires = { 'nvim-tree/nvim-web-devicons', opt = true }
 	}
 	use('romainl/vim-cool')
+	use('tpope/vim-fugitive')
+	-- Enables :GBrowse for Github.
+	use('tpope/vim-rhubarb')
 end)
