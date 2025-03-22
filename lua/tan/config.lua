@@ -8,6 +8,7 @@ vim.g.tagbar_sort = 0
 vim.g.NERDTreeGitStatusUseNerdFonts = 1
 vim.g.NERDTreeFileExtensionHighlightFullName = 1
 
+
 -- Rustaceanvim
 -- - Ensure rust-analyzer is configured
 vim.g.rustaceanvim = {
@@ -23,7 +24,32 @@ vim.g.rustaceanvim = {
 		    },
 		    ["procMacro"] = {
 			    ["enable"] = true,
-		    }
+		    },
+		    ["autoImport"] = {
+			    ["enable"] = true
+		    },
+		    ["fullFunctionSignatures"] = {
+			    ["enable"] = true
+		    },
+		    ["hover"] = {
+			    ["actions"] = {
+				    ["enable"] = true,
+				    ["implementations"] = {
+					    ["enable"] = true
+				    }
+			    }
+		    },
+		    ["inlayHints"] = {
+			    ["genericParameterHints"] = {
+				    ["type"] = {
+					    ["enable"] = true
+				    }
+			    },
+			    ["typeHints"] = {
+				    ["enabled"] = true,
+
+			    }
+		    } 
 	    },
     },
   },

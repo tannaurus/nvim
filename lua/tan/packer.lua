@@ -82,4 +82,8 @@ return require('packer').startup(function(use)
 	use('tpope/vim-fugitive')
 	-- Enables :GBrowse for Github.
 	use('tpope/vim-rhubarb')
+	use {
+		"pmizio/typescript-tools.nvim",
+		requires = { "nvim-lua/plenary.nvim", "neovim/nvim-lspconfig" },
+	}
 end)

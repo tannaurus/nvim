@@ -1,7 +1,6 @@
 local rs = require('rustaceanvim')
 local bufnr = vim.api.nvim_get_current_buf()
 
-
 vim.keymap.set('n', '<leader>z', function() vim.cmd.RustLsp('codeAction') end)
 vim.keymap.set('n', '<leader>x', function() vim.cmd.RustLsp('renderDiagnostic') end)
 vim.keymap.set('n', '<leader>c', function() vim.cmd.RustLsp('testables') end)
