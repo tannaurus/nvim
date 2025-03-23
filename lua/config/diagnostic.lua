@@ -1,5 +1,3 @@
---- LSP Diagnostics Options Setup 
---- Mostly a copy/paste from: https://rsdlt.github.io/posts/rust-nvim-ide-guide-walkthrough-development-debug/
 local sign = function(opts)
   vim.fn.sign_define(opts.name, {
     texthl = opts.name,

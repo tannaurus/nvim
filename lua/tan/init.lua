@@ -1,5 +1,0 @@
-require("tan.packer")
-require("tan.remap")
-require("tan.diagnostic")
-require("tan.opts")
-require("tan.config")
