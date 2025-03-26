@@ -14,7 +14,6 @@ return {
 		{ "<leader>gf", function() require("telescope.builtin").git_files() end, desc = "Find Git Files" },
 		{ "<leader>fg", function() require("telescope.builtin").live_grep() end, desc = "Live Grep" },
 		{ "<leader>ps", function() require("telescope.builtin").grep_string({ search = vim.fn.input("Grep > ") }) end, desc = "Grep String" },
-		{ "<leader>f", function() require("telescope.builtin").current_buffer_fuzzy_find() end, desc = "Fuzzy Find in Buffer" },
 		{ "<leader>fd", function() require("telescope.builtin").diagnostics() end, desc = "Find Diagnostics" },
 		{ "<leader>fr", function() require("telescope.builtin").resume() end, desc = "Resume Last Search" },
 	},
