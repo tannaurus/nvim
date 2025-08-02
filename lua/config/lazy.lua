@@ -26,4 +26,6 @@ require("lazy").setup({
   install = { colorscheme = { "habamax" } },
   -- automatically check for plugin updates
   checker = { enabled = true },
+  -- I don't want to see updates every time I open my editor.
+  change_detection = { notify = false }
 })
